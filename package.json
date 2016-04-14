@@ -1,0 +1,25 @@
+{
+  "name": "ui-kit-palettes",
+  "version": "0.1.0",
+  "description": "a collection of popular color palettes",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "palette",
+    "colors",
+    "color",
+    "theme"
+  ],
+  "author": "Michael Andrew Vanasse <mail@mndvns.com> (http://mndvns.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "google-material-color": "^1.2.6",
+    "ui-kit-palette": "^0.1.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
+  }
+}
