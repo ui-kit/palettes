@@ -3,6 +3,5 @@ module.exports = exports['default'] = [
 ].reduce(function(acc, next) {
   var lightness = Math.round((.97 - next / 1400) * 100) / 100;
   acc[next] = '.l(' + lightness + ')';
-  console.log(acc);
   return acc;
 }, {});
